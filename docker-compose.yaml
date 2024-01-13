@@ -1,0 +1,9 @@
+version: '3'
+services:
+  website:
+    container_name: website
+    image: webserver
+    build:
+      context: .
+    ports:
+      - "80:80"
