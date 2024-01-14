@@ -2,8 +2,6 @@ version: '3'
 services:
   website:
     container_name: website
-    image: webserver
-    build:
-      context: .
+    image: mishra96908/web
     ports:
       - "80:80"
